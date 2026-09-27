@@ -3,9 +3,9 @@ on:
   push:
     branches:
       - main
-jobs: 
+jobs:
   say-hello:
-  runs-on: ubuntu-lastest
-  steps:
-    - name: Exibir mensagem no log
-      run: echo "GitHub Action funcionando com sucesso!"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Exibir mensagem no log
+        run: echo "GitHub Action funcionando com sucesso!"
